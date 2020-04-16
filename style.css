@@ -96,6 +96,7 @@ h1 {
     position: relative;
     overflow: hidden;
     z-index: -1;
+    line-height: 20px;
 }
 
 #sum::before, #bio::before {
