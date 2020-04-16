@@ -81,6 +81,9 @@ h1 {
     #bio {
         margin: 40px;
     }
+    li a {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
 }
 
 #sum, #bio {
@@ -99,6 +102,7 @@ h1 {
     line-height: 20px;
 }
 
+/*Initially for frosted glass effect*/
 #sum::before, #bio::before {
 content: "";
 position: absolute;
@@ -176,6 +180,7 @@ border: 1px solid orangered;
     left: 47%;
 }
 
+/*Responsible for the 3D billboard*/
 .box {
     display: flex;
     display: flex;
@@ -229,3 +234,4 @@ border: 1px solid orangered;
 		left: -100%;
 	}
 }
+/*Responsible for the 3D billboard*/
